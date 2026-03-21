@@ -6,8 +6,7 @@ import (
 	"web-api/usecase/repository"
 )
 
-type TodoInteractor interface {
-}
+type TodoInteractor any
 
 type todoInteractor struct {
 	todoRepo repository.TodoRepository

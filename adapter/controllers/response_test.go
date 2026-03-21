@@ -13,7 +13,7 @@ func TestRespondWithJSON(t *testing.T) {
 	testCases := []struct {
 		name       string
 		statusCode int
-		payload    interface{}
+		payload    any
 		wantStatus int
 		wantHeader string
 		wantBody   string
